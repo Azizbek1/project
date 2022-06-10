@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css?_v=20220610101828">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap&_v=20220610101828"
+        rel="stylesheet">
+    <!-- Bootsrap  -->
+    <link rel="stylesheet" href="/files/css/bootstrap.min.css?_v=20220610101828">
+    <link rel="stylesheet" href="/css/style.min.css?_v=20220610101828">
+    <title>Главная страница</title>
+</head>
+<body>
+<div class="navbarMain">
+    <div class="navbarMain__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="navbarMain__logo">
+                        <a href="/">
+                            <picture><source srcset="img/Logo.webp" type="image/webp"><img src="img/Logo.png" alt="png"></picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="navbarMain__version">
+                        <ul class="navbarMain__version-item navbarMain__version-left">
+                            <li><a href="#"><i class="fa-solid fa-eye"></i>Версия для слабовидящиx</a></li>
+                            <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Старая версия сайта</a></li>
+                        </ul>
+                        <ul class="navbarMain__version-item navbarMain__version-right">
+                            <li><a href="#"><div><img src="img/envelope.svg" alt="svg"></div>Интернет <br> приемная</a></li>
+                            <li><a href="#"><div><img src="img/user.svg" alt="svg"></div>Личный <br> кабинет</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbarMain__bottom">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О предприятии</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Потребителям</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Закупки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Раскрытие информации</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<main class="main">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <picture><source srcset="img/img.webp" type="image/webp"><img src="img/img.jpg" class="d-block w-100" alt="jpg"></picture>
+                <div class="carousel-caption ">
+                    <h5>Передавайте показания вовремя</h5>
+                    <p>Передавайте показания и оплачивайте без комиссии и очередей!</p>
+                    <button class="btn btn-primary">Подробнее</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <picture><source srcset="img/img.webp" type="image/webp"><img src="img/img.jpg" class="d-block w-100" alt="..."></picture>
+                <div class="carousel-caption ">
+                    <h5>Передавайте показания вовремя</h5>
+                    <p>Передавайте показания и оплачивайте без комиссии и очередей!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <picture><source srcset="img/img.webp" type="image/webp"><img src="img/img.jpg" class="d-block w-100" alt="..."></picture>
+                <div class="carousel-caption ">
+                    <h5>Передавайте показания вовремя</h5>
+                    <p>Передавайте показания и оплачивайте без комиссии и очередей!</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</main>
+
+<!-- Matinlini ichiga blokli element qo'yilmaydi! -->
+
+<!-- ====== categorylinks  ========= -->
+<section class="categorylinks">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <a class="links" href="#">
+                    <div class="links__icon">
+                        <img src="img/icon.svg" alt="svg">
+                    </div>
+                    <div class="links__title">
+                        <h3>Как стать нашим клиентом </h3>
+                    </div>
+                    <div class="links__arrow">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </a>
+                <a class="links" href="#">
+                    <div class="links__icon">
+                        <img src="img/icon.svg" alt="svg">
+                    </div>
+                    <div class="links__title">
+                        <h3>Как стать нашим клиентом </h3>
+                    </div>
+                    <div class="links__arrow">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </a>
+                <a class="links" href="#">
+                    <div class="links__icon">
+                        <img src="img/icon.svg" alt="svg">
+                    </div>
+                    <div class="links__title">
+                        <h3>Как стать нашим клиентом </h3>
+                    </div>
+                    <div class="links__arrow">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a class="links" href="#">
+                    <div class="links__icon">
+                        <img src="img/icon.svg" alt="svg">
+                    </div>
+                    <div class="links__title">
+                        <h3>Как стать нашим клиентом </h3>
+                    </div>
+                    <div class="links__arrow">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </a>
+                <a class="links" href="#">
+                    <div class="links__icon">
+                        <img src="img/icon.svg" alt="svg">
+                    </div>
+                    <div class="links__title">
+                        <h3>Как стать нашим клиентом </h3>
+                    </div>
+                    <div class="links__arrow">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </a>
+                <a class="links" href="#">
+                    <div class="links__icon">
+                        <img src="img/icon.svg" alt="svg">
+                    </div>
+                    <div class="links__title">
+                        <h3>Как стать нашим клиентом </h3>
+                    </div>
+                    <div class="links__arrow">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<script src="/files/js/bootstrap.min.js?_v=20220610101828"></script>
+<script src="/js/app.min.js?_v=20220610101828"></script>
+</body>
+</html>
+    
+

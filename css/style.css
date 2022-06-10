@@ -1,0 +1,277 @@
+.main .carousel-caption {
+  max-width: 450px;
+  top: 10%;
+  left: 16%;
+  text-align: left;
+}
+
+.main .carousel-control-prev {
+  background: red;
+  width: 36px;
+  height: 36px;
+  left: 98.1%;
+  top: 50%;
+  opacity: 1;
+}
+
+.main .carousel-control-next {
+  background: red;
+  width: 36px;
+  height: 36px;
+  top: 40%;
+  opacity: 1;
+}
+
+.main .carousel-indicators {
+  justify-content: flex-start;
+  left: 1%;
+}
+
+.main .carousel-indicators button {
+  background: #C7D0E2;
+  border: none;
+}
+
+.main .carousel-indicators button.active {
+  background: #275BA8;
+}
+
+.main .carousel-caption h5 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: #323A49;
+  margin-bottom: 30px;
+}
+
+.main .carousel-caption p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #323A49;
+  margin-bottom: 30px;
+}
+
+/* ======= categorylinks ======= */
+
+.categorylinks {
+  padding: 60px 0;
+}
+
+.categorylinks .links {
+  display: flex;
+  justify-content: space-between;
+  padding: 37px 45px;
+  background: #F4F8FD;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.categorylinks .links__arrow {
+  display: flex;
+  align-items: center;
+}
+
+.categorylinks .links__arrow .fa-solid {
+  color: #275BA8;
+  font-size: 20px;
+}
+
+.categorylinks .links__title {
+  display: flex;
+  align-items: center;
+}
+
+.categorylinks .links__title h3 {
+  font-weight: 700;
+  font-size: 21px;
+  color: #334059;
+}
+
+.navbarMain__top {
+  padding: 30px 0;
+}
+
+.navbarMain__logo img {
+  max-width: 100%;
+}
+
+.navbarMain .navbar-toggler {
+  border-color: white;
+}
+
+.navbarMain .navbar-toggler .fa-solid {
+  color: white;
+}
+
+.navbarMain__bottom {
+  background: #275BA8;
+}
+
+.navbarMain__bottom .navbar-collapse {
+  justify-content: center;
+}
+
+.navbarMain__bottom .navbar-collapse .navbar-nav .nav-item {
+  margin: 0 30px;
+}
+
+.navbarMain__bottom .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.navbarMain__bottom .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: red;
+}
+
+.navbarMain__version {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbarMain__version-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarMain__version-left li {
+  margin-bottom: 6px;
+}
+
+.navbarMain__version-left li a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #275BA8;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+.navbarMain__version-left li a:hover {
+  color: black;
+}
+
+.navbarMain__version-left li a:hover .fa-solid {
+  color: #275BA8;
+}
+
+.navbarMain__version-left li a .fa-solid {
+  margin-right: 10px;
+  color: #D5DEEC;
+}
+
+.navbarMain__version-right {
+  margin-left: 20px;
+  display: flex;
+}
+
+.navbarMain__version-right li {
+  margin-right: 40px;
+}
+
+.navbarMain__version-right li a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #323A49;
+  text-decoration: none;
+  line-height: 21px;
+  display: flex;
+}
+
+.navbarMain__version-right li a div {
+  margin-right: 10px;
+}
+
+body {
+  font-family: "M PLUS 1p", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1399px) {
+  .main .carousel-caption {
+    /* XL */
+    top: 0;
+  }
+
+  .main .carousel-caption h5 {
+    line-height: 60px;
+    margin-bottom: 13px;
+  }
+
+  .main .carousel-control-prev {
+    /* XL */
+    left: 0;
+  }
+
+  .main .carousel-control-next {
+    /* XL */
+    right: 0;
+    top: 50%;
+  }
+
+  .navbarMain__bottom .navbar-collapse .navbar-nav .nav-item .nav-link {
+    /* XL */
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .main .carousel-caption {
+    /* LG */
+  }
+
+  .main .carousel-caption h5 {
+    font-size: 46px;
+    line-height: 48px;
+  }
+
+  .main .carousel-control-next {
+    /* LG */
+    top: 50%;
+  }
+
+  .navbarMain__bottom .navbar-collapse .navbar-nav .nav-item {
+    /* LG */
+    margin: 0 15px;
+  }
+
+  .navbarMain__bottom .navbar-collapse .navbar-nav .nav-item .nav-link {
+    /* LG */
+    font-size: 12px;
+  }
+
+  .navbarMain__version-right {
+    margin-left: 0px;
+  }
+
+  .navbarMain__version-right li {
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 991px) {
+  .main .carousel-caption {
+    /* md */
+  }
+
+  .main .carousel-caption h5 {
+    font-size: 36px;
+    line-height: 30px;
+  }
+
+  .main .carousel-caption p {
+    margin-bottom: 10px;
+  }
+
+  .navbarMain__logo {
+    /* MD */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
